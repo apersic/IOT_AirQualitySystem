@@ -1,0 +1,106 @@
+/*
+    secondary: #37474f
+    selected: #62727b
+    primary: #102027
+*/
+
+body{
+    margin: 0 0 0 0;
+    padding: 0;
+    display: grid;
+    font-family: sans-serif;
+    background: #102027;
+    color: white;
+    overflow-x: hidden;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    z-index: 3;
+}
+
+.pozadina{
+    width: 100%;
+    height: 100vh;
+}
+
+.izbornik{
+    visibility: hidden;
+    z-index: 3;
+    margin-right: 75%;
+}
+
+nav{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    background: #102027;
+}
+
+nav > ul{
+    background: #102027;
+    margin-top: 0;
+    list-style-type: none;
+    padding: 2px;
+    padding-left: 5px;
+}
+
+nav > ul > li{
+    padding: 2px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+nav > ul > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+.hamburger{
+    position: relative;
+    display: grid;
+    cursor: pointer;
+    align-items: center;
+    align-content: center;
+    top: 20%;
+    width: 40px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.line{
+    background: white;
+    width: 30px;
+    height: 3px;
+    margin: 3px;
+    z-index: 3;
+}
+
+#sadrzaj{
+    position: relative;
+}
+
+footer{
+    text-align: center;
+    margin: 5px;
+    padding: 2px;
+    background: #102027;
+    width: 100%;
+    height: 100%;
+}
+
+footer > p{
+    color: white;
+}
+
+nav > ul > li :hover{
+    background: #62727b;
+}
+
+button a{
+    text-decoration: none;
+    color: #102027;
+}

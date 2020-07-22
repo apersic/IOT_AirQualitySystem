@@ -1,0 +1,19 @@
+.prijavaForma{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
+.gumb{
+    position: absolute;
+    background: #37474f;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    width: 120px;
+    height: 50px;
+    font-size: 18px;
+    left: 40%;
+}

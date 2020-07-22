@@ -1,0 +1,29 @@
+.pozdravnaPoruka{
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
+.gumbPocetna{
+    position: absolute;
+    background: #37474f;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+}
+
+#prijavaGumb{
+    top: 40%;
+    left: 40%;
+}
+
+#regGumb{
+    top: 40%;
+    left: 50%;
+}
